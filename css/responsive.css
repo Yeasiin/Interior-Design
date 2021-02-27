@@ -1,0 +1,171 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+
+}
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+.welcome.mt-70 {
+	margin-top:0;
+}
+.video-info.mt-25 {
+	margin-top:0;
+}
+.testimonial-active.owl-carousel .owl-nav {
+	display:none;
+}
+
+
+
+
+
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.testimonial-active.owl-carousel .owl-nav {
+	display:none;
+}
+.welcome.mt-70 {
+	margin-top:0;
+}
+.video-info.mt-25 {
+	margin-top:0;
+}
+.slider-active.owl-carousel .owl-nav{
+	display:none;
+}
+.slider-inner h2 {
+	font-size: 40px;
+}
+.menu nav ul li a {
+	padding: 40px 10px;
+}
+.slider-inner p {
+	font-size: 14px;
+}
+.project-area .mix-width {
+	width: 50%;
+	margin-bottom: 40px;
+}
+.footer-widget {
+	margin-bottom: 50px;
+}
+
+
+
+
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+	
+.footer-widget {
+	margin-bottom: 50px;
+}
+
+	.project-area .mix-width {
+	width: 50%;
+	margin-bottom: 40px;
+}
+.slider-active.owl-carousel .owl-nav{
+	display:none;
+}
+.testimonial-active.owl-carousel .owl-nav {
+	display:none;
+}
+.welcome.mt-70 {
+	margin-top:0;
+}
+.video-info.mt-25 {
+	margin-top:0;
+}
+.slider-inner h2 {
+	font-size: 22px;
+}
+.slider-inner span {
+	font-size: 11px;
+	letter-spacing: 2px;
+}
+.slider-inner p {
+	font-size: 12px;
+	margin-bottom:30px;
+}
+.welcome h2 {
+	font-size: 20px;
+	line-height: 30px;
+}
+.section-title h3 {
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+.video-info h3 {
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+.cta h2 {
+	font-size: 25px;
+	line-height: 30px;
+	margin-bottom: 25px;
+}
+.section-title p {
+	font-size: 13px;
+}
+.single-testimonial p {
+	font-size: 13px;
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+.card .card-header h2 button::before {
+	display:none;
+}
+.card .card-header h2 button:after {
+	display:none;
+} 
+.card .card-header h2 button {
+	padding: 15px;
+}
+.card-body {
+	padding: 10px 15px;
+}
+.brand-active .single-brand img {
+	width: inherit;
+}
+.span-none {
+	display:none;
+}
+
+
+
+ 
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+.slider-inner span {
+	font-size: 14px;
+	letter-spacing: 3px;
+}
+.slider-inner h2 {
+	font-size: 30px;
+}
+.slider-inner p {
+	font-size: 13px;
+}
+.span-none {
+	display:inline-block;
+}
+
+
+
+
+
+
+}
